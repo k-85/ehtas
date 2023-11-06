@@ -39317,7 +39317,7 @@ A.Vd.prototype={
 $0(){return A.fL("https://play.google.com/store/apps/developer?id=EHTAS")},
 $S:33}
 A.Ve.prototype={
-$0(){return A.fL("https://ii-kbs-ii.github.io/ehtas/privacy-policy/")},
+$0(){return A.fL("https://k-85.github.io/ehtas/privacy-policy/")},
 $S:33}
 A.tV.prototype={
 al(){return new A.tW(null,null,B.j)},
