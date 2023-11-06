@@ -1,0 +1,53 @@
+{    
+    "releases":[
+        {
+            "title":"CFR - Multiplayer",
+            "desc":"Craze For Race is massive\nmultiplayer motor race packed\nwith adventure for free",
+            "res":"assets/website/releases/cfr.webp",
+            "link":"https://play.google.com/store/apps/details?id=xyz.ehtas.kbsmade.raze",
+            "youtube":"https://www.youtube.com/watch?v=Wg9gcQbHzOU&list=PLshN4aOurVGSoe0BbTorKNOyaqQddqUvi&index=4"
+        },
+        {
+            "title":"Attend",
+            "desc":"Attend is personal attendance\ntracker app for employees\nwhich can predict salary",
+            "res":"assets/website/releases/atn.webp",
+            "link":"https://play.google.com/store/apps/details?id=xyz.ehtas.kbsmade.attend",
+            "youtube":""
+        },
+        {
+            "title":"MindCards",
+            "desc":"Best ever cards game\nto compete with world with\nyour own luck",
+            "res":"assets/website/releases/mc.webp",
+            "link":"https://play.google.com/store/apps/details?id=xyz.ehtas.kbsmade.mc2",
+            "youtube":""
+        },
+        {
+            "title":"Memo",
+            "desc":"Memo app is easy to\nuse note management tool\nwith photo note storing facility",
+            "res":"assets/website/releases/memo.webp",
+            "link":"https://play.google.com/store/apps/details?id=kbsmade.memo",
+            "youtube":"https://www.youtube.com/watch?v=amg59nhNI_w&list=PLshN4aOurVGSoe0BbTorKNOyaqQddqUvi&index=5"
+        },
+        {
+            "title":"SHAG",
+            "desc":"Smart Home Automation Gadget\nis an alternative cheap solution\nfor luxurious life",
+            "res":"assets/website/releases/shag.webp",
+            "link":"",
+            "youtube":"https://www.youtube.com/watch?v=0RrFXkzGXyE&list=PLshN4aOurVGSoe0BbTorKNOyaqQddqUvi&index=2"
+        },
+        {
+            "title":"Rmap",
+            "desc":"Random map locations\nare picked and zoomed to make\nvirtual wourld tour",
+            "res":"assets/website/releases/rmap.webp",
+            "link":"https://ehtas.xyz/rmap",
+            "youtube":""
+        },
+        {
+            "title":"Memo +",
+            "desc":"Memo + app is easy to use note management tool with photo note storing facility with sync feature over various platform",
+            "res":"assets/website/releases/memo_plus.webp",
+            "link":"https://memo-plus.ehtas.xyz/",
+            "youtube":""
+        }
+    ]
+}
