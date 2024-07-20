@@ -2,9 +2,6 @@
 <html>
 
 <body>
-
-    <div id="display">Click the button to see a random string!</div>
-
     <script>
         const stringsArray = [
             "Hello, World!",
@@ -22,18 +19,25 @@
             "1 Coding is awesome!"
         ];
 
-        function displayRandomString() {
+        function responseJson() {
             const urlParams = new URLSearchParams(window.location.search);
             const type = urlParams.get('type');
             const randomIndex = Math.floor(Math.random() * stringsArray.length);
+            let response = { status: "error", message: "Invalid api." };
+
             if (type === "q1") {
-                document.getElementById("display").textContent = stringsArray[randomIndex];
+                response = { status: "success", message: stringsArray[randomIndex] };
             } else {
-                document.getElementById("display").textContent = stringsArray1[randomIndex];
+                response = { status: "success", message: stringsArray1[randomIndex] };
             }
+
+            // Set the content type to JSON
+            document.open();
+            document.write('<pre>' + JSON.stringify(response, null, 2) + '</pre>');
+            document.close();
         }
 
-        window.onload = displayRandomString;
+        window.onload = responseJson;
     </script>
 
 </body>
