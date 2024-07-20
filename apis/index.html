@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div id="display">Click the button to see a random string!</div>
+
+    <script>
+        const stringsArray = [
+            "Hello, World!",
+            "Welcome to the random string generator.",
+            "Have a great day!",
+            "JavaScript is fun!",
+            "Coding is awesome!"
+        ];
+
+        const stringsArray1 = [
+            "1 Hello, World!",
+            "1 Welcome to the random string generator.",
+            "1 Have a great day!",
+            "1 JavaScript is fun!",
+            "1 Coding is awesome!"
+        ];
+
+        function displayRandomString() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const type = urlParams.get('type');
+            const randomIndex = Math.floor(Math.random() * stringsArray.length);
+            if (type === "q1") {
+                document.getElementById("display").textContent = stringsArray[randomIndex];
+            } else {
+                document.getElementById("display").textContent = stringsArray1[randomIndex];
+            }
+        }
+
+        window.onload = displayRandomString;
+    </script>
+
+</body>
+
+</html>
